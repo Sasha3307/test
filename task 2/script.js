@@ -14,7 +14,7 @@ let appData = {
     savings: false
 };
 
-/*
+
 for (let i = 0; i < 2; i++) {
     let a = prompt('Введите обязательную статью расходов в этом месяце', ''),
         b = +prompt('Во сколько обойдется?', '');
@@ -39,8 +39,8 @@ while (i < 2) {
     }
     i++;
 }
-*/
 
+/*
 let i = 0;
 do {
     let a = prompt('Введите обязательную статью расходов в этом месяце', ''),
@@ -54,7 +54,7 @@ do {
     i++;
 }
 while (i < 2);
-
+*/
 
 
 appData.moneyPerDay = appData.budget / 30;
